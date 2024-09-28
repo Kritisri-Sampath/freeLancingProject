@@ -1,0 +1,138 @@
+.gradient-background {
+    background: linear-gradient(to bottom right, #00bfff, #ff4c68, #ef8172);
+    background-size: 300% 300%;
+    animation: gradient-animation 45s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  .kr{
+    font-weight: bold;
+    text-align: center;
+  }
+  .body {
+    font-family: Arial, sans-serif;
+    background-color: #555;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Nav links styles */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav-links a:hover {
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+}
+.free{
+  color:whitesmoke;
+}
+
+
+/* Header styles */
+header {
+    background-color:black;
+    padding: 10px 0;
+}
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 100%;
+    height: 200px;
+  }
+  .d-block .mx-lg-auto .img-fluid{
+    width: 200px;
+    height: 200px;
+    background-color:#ff4c68;
+    border-radius: 30px;
+  } 
+/* Login Section Styles */
+.login-section {
+  align-items: center;
+  padding: 4rem 0;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.login-box {
+  background-color:white; /* White background for the box */
+  border-radius: 0.5rem; /* Rounded corners for the box */
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .profile-img{
+    width:200px;
+    height: fit-content;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1, section h2 {
+    color: #333;
+}
+

@@ -1,0 +1,32 @@
+div{
+ 
+    color: black;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+body{
+    background-color:burlywood;
+
+}
+.div h1{
+    font-size: 50px;
+
+}
+p{
+    color:black;
+}
+.div a{
+    background-color: #fff;
+    padding :10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px 0;
+}
+.float-right {
+    float: right;
+    margin: 20px; /* Optional: Adds space around the image */
+    max-width: 100%;
+    height: auto;
+}
