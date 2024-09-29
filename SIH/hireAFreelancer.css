@@ -1,0 +1,28 @@
+input[type="text"] {
+    width: 400px;  /* Set the width */
+    height: 150px;  /* Set the height */
+    font-size: 18px; /* Optional: Increase font size for better readability */
+    background-color:aquamarine;
+    color:black;
+}
+input[type="submit"] {
+    background-color: green; /* Set background color to green */
+    color: white;            /* Set text color to white */
+    border: none;            /* Remove borders */
+    padding: 10px 20px;      /* Add some padding */
+    cursor: pointer;         /* Change cursor to pointer */
+    font-size: 16px;         /* Optional: Set font size */
+}
+
+/* Optional: Change color on hover */
+input[type="submit"]:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+body {
+    background-image: url('/download.jpeg'); /* Replace with your image path */
+    background-size: cover;  /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set height to full viewport height */
+    margin: 0; /* Remove default margin */
+}
